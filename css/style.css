@@ -28,7 +28,7 @@ body{
 /* Header */
 
 #header{
-	background-color: rgb(0,0,0,.5);
+	background-color: rgb(233,117,0,.5);
 	width: 80%;
 	max-width: 1280px;
 	margin-left: auto;
@@ -47,7 +47,7 @@ body{
 	color: white;
 }
 .header-nav-item:hover {
-	background-color: rgb(0,0,0,0.5);
+	background-color: rgb(181,91,0,0.8);
 }
 .header-nav-burger{
 	display: none;
@@ -105,11 +105,15 @@ body{
 	width: 350px; 
 	margin-right: 50px; 
 	max-height: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 .main-left-text{
 	line-height: 0.8cm;
 	margin-top: auto;
 	margin-bottom: auto;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 
 .main-right {
@@ -121,6 +125,8 @@ body{
 	margin-left: 50px; 
 	border: none;
 	max-height: 200px;
+	margin-top: auto;
+	margin-bottom: auto;
 	
 }
 .main-right-text{
@@ -133,6 +139,8 @@ body{
 
 .about-text p{
 	margin-bottom: 8px;
+	text-align: justify;
+  	text-justify: inter-word;
 }
 .about-text p a {
 	text-decoration: none;
@@ -140,20 +148,26 @@ body{
 	font-weight: 600;
 
 }
+.about-text img{
+	width: 400px;
+	margin: auto;
+	display: table;
+	margin-bottom: 8px;
+}
 
 /* Contacts */
 
 .main-contact-container-items{
 	padding: 20px 30px;
 	display: grid;
-	grid-template-columns: 30% 70%;
+	grid-template-columns: 40% 60%;
 }
 .contacts-left-item i{
 	text-align: center;
 	margin: auto 0;
 	width: 30px;
 	padding: 7px 0;
-	background-color: #494949;
+	background-color: #E97502;
 	color: white;
 	border-radius: 20px;
 	margin-bottom: 15px;
@@ -191,6 +205,27 @@ body{
 }
 .contacts-right iframe{
 	width: 100%;
+	max-height: 450px;
+}
+.contacts-right img{
+	display: none;
+	width: 100%;
+	max-height: 450px;
+}
+.contactsbuttons{
+	display: flex;
+	margin-bottom: 10px;
+
+}
+.contacttabB{
+	padding: 10px 20px;
+	border-radius: 10px;
+	background-color: #E8E8E8;
+	margin-right: 20px;
+	cursor: pointer;
+}
+.contacttabB:hover{
+	background-color: #DFDFDF;
 }
 
 /* Responsive */
@@ -217,6 +252,10 @@ body{
    .main-left iframe{
 	   	display: table;
 	   	margin: auto;
+   }
+   .about-text img{
+   		margin: 0;
+   		width: 100%;
    }
    .main-container-items{
    		padding: 5px;

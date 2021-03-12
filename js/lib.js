@@ -16,3 +16,14 @@ function mobileMenu (){
 }
 
 menuBorder.innerHTML += document.getElementById ('header-nav').innerHTML;
+
+var tabclass = document.getElementsByClassName ("contacttab");
+
+function contacttabfun (tabid){
+	console.log("Hello WOrld 1");
+	for (var i=0; i<tabclass.length; i++){
+		tabclass[i].style.display = 'none';
+	}
+	document.getElementById (tabid).style.display = 'block';
+}
+console.log("Hello WOrld 2");
