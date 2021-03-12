@@ -137,8 +137,8 @@ body{
 
 /* About */
 
-.about-text p{
-	margin-bottom: 8px;
+.about-text {
+	
 	text-align: justify;
   	text-justify: inter-word;
 }
