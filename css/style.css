@@ -151,11 +151,11 @@ body{
 .about-text img{
 	width: 400px;
 	float: left;
-	padding: 7px 7px 7px 0;
+	padding: 10px 10px 10px 0;
 }
 .about-text img:nth-child(even){
 	float: right;
-	padding: 7px 0 7px 7px;
+	padding: 10px 0 10px 10px;
 }
 
 
